@@ -1,14 +1,23 @@
-﻿<form asp-action="Cambio" method="post">
-    <label>Envías:</label>
-    <select name="envias">
-        <option value="BRL">Real Brasileño (BRL)</option>
-    </select>
-    <input type="number" name="cantidadEnvias" required />
+﻿<div class="container mt-5">
+    <div class="card shadow-lg p-4">
+        <h2 class="text-center">Conversión de Moneda</h2>
+        <form asp-action="Cambio" method="post">
+            <div class="mb-3">
+                <label class="form-label">Envías:</label>
+                <select name="envias" class="form-select">
+                    <option value="BRL">Real Brasileño (BRL)</option>
+                </select>
+                <input type="number" name="cantidadEnvias" class="form-control mt-2" required />
+            </div>
 
-    <label>Recibes:</label>
-    <select name="recibes">
-        <option value="PEN">Sol Peruano (PEN)</option>
-    </select>
-    
-    <button type="submit">Hacer Cambio</button>
-</form>
+            <div class="mb-3">
+                <label class="form-label">Recibes:</label>
+                <select name="recibes" class="form-select">
+                    <option value="PEN">Sol Peruano (PEN)</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">Hacer Cambio</button>
+        </form>
+    </div>
+</div>
