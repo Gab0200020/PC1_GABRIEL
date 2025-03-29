@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PC1_GABRIEL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0866414276a349e3a00eb90c76b794c3fdfafb06")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f11d3e71fd06bf904d114098b17c9e0ec2bb00e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("PC1_GABRIEL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PC1_GABRIEL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
