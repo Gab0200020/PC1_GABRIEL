@@ -1,8 +1,14 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<form asp-action="Cambio" method="post">
+    <label>Envías:</label>
+    <select name="envias">
+        <option value="BRL">Real Brasileño (BRL)</option>
+    </select>
+    <input type="number" name="cantidadEnvias" required />
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    <label>Recibes:</label>
+    <select name="recibes">
+        <option value="PEN">Sol Peruano (PEN)</option>
+    </select>
+    
+    <button type="submit">Hacer Cambio</button>
+</form>
